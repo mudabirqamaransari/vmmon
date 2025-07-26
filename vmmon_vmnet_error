@@ -11,7 +11,6 @@ sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 ./VMWARE15.priv
 
 sudo mokutil --import VMWARE15.der
 
-#This will ask you for a password, enter some new password a bit long like 1515vmware. Reenter same password.
 reboot
 
-mokutil --test-key VMWARE15.der
+#IT SHOULD WORK NOW
